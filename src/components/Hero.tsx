@@ -31,10 +31,12 @@ export default function Hero({ onGetStarted }: HeroProps) {
             <Icon name="Search" size={20} className="mr-2" />
             Начать поиск
           </Button>
-          <Button size="lg" variant="outline" className="border-primary text-primary hover:bg-primary/10 text-lg px-8 py-6">
-            <Icon name="Map" size={20} className="mr-2" />
-            Открыть карту
-          </Button>
+          <a href="/map">
+            <Button size="lg" variant="outline" className="border-primary text-primary hover:bg-primary/10 text-lg px-8 py-6">
+              <Icon name="Map" size={20} className="mr-2" />
+              Открыть карту
+            </Button>
+          </a>
         </div>
 
         <div className="mt-12 grid grid-cols-3 gap-8 max-w-3xl mx-auto">
